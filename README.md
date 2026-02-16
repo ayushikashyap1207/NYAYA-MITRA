@@ -244,17 +244,22 @@ curl http://localhost:5000/api/documents/health
 
 ### Project Structure
 
+```
 NYAYA-MITRA/
-│
-├── app.py
-├── requirements.txt
-├── .env.example
-├── templates/
-├── static/
-├── screenshots/
-├── START_HERE.md
+├── backend/
+│   ├── services/        # OCR, AI analysis, translation
+│   ├── controllers/     # Request handling
+│   ├── routes/          # API endpoints
+│   ├── middleware/      # Error handling, security
+│   └── server.js        # Entry point
+├── frontend/
+│   └── src/
+│       └── App.jsx      # Main UI
+├── docs/
+│   └── screenshots/     # App screenshots
+├── LICENSE
 └── README.md
-
+```
 
 ⸻
 
