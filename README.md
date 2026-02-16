@@ -105,7 +105,7 @@ Legal documents are often lengthy, technical, and difficult to understand for no
 
 ### Workflow Explanation
 	1.	User uploads a document or enters text through the web interface.
-	2.	Flask backend receives the request.
+	2.	Express.js backend receives the request.
 	3.	OCR engine extracts text from images or PDFs.
 	4.	Extracted text is passed to AI services for summarization, translation, question answering, or text-to-speech.
 	5.	Processed results are returned to the backend.
