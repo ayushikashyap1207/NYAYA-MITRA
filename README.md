@@ -5,6 +5,8 @@
 [![Last Commit](https://img.shields.io/github/last-commit/ayushikashyap1207/NYAYA-MITRA)](https://github.com/ayushikashyap1207/NYAYA-MITRA/commits/main)
 
 <img width="482" height="78" alt="image" src="https://github.com/user-attachments/assets/252b436c-8c30-407f-b336-42f67d93d1b1" />
+
+
 ### NYAYA-MITRA
 
 NYAYA-MITRA is an AI-powered legal assistance platform designed to help users understand, analyze, and interact with legal information easily. It enables users to extract text from legal documents, summarize complex legal content, translate across languages, and obtain AI-driven insights through a simple web interface.
