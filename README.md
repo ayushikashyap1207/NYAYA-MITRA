@@ -154,6 +154,92 @@ http://localhost:5000
 
 See START_HERE.md￼ for API details and troubleshooting.
 
+### POST `/api/documents/process`
+Upload and analyze a legal document.
+
+**Request:**
+```bash
+curl -X POST http://localhost:5000/api/documents/process \
+  -F "document=@sample-legal-notice.txt" \
+  -F "targetLanguage=hi"
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "analysis": {
+    "documentType": "Court Notice",
+    "mainPurpose": "Appear in court for property dispute hearing",
+    "keyPoints": [
+      "Property dispute case filed against you",
+      "You must appear before the court",
+      "Bring all property documents"
+    ],
+    "deadline": "15/03/2025",
+    "actionRequired": "Appear in District Court of Bhopal",
+    "parties": {
+      "sender": "District Court of Bhopal",
+      "recipient": "Ramesh Kumar"
+    }
+  },
+  "translation": {
+    "language": "hi",
+    "translatedSummary": "आपको संपत्ति विवाद के लिए अदालत में उपस्थित होना है"
+  },
+  "audio": {
+    "text": "आपको संपत्ति विवाद के लिए अदालत में उपस्थित होना है",
+    "languageCode": "hi-IN"
+  }
+}
+```
+
+### GET `/api/documents/languages`
+Get all supported languages.
+
+**Request:**
+```bash
+curl http://localhost:5000/api/documents/languages
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "languages": {
+    "hi": "Hindi",
+    "bn": "Bengali",
+    "ta": "Tamil",
+    "te": "Telugu",
+    "mr": "Marathi",
+    "gu": "Gujarati",
+    "kn": "Kannada",
+    "ml": "Malayalam",
+    "pa": "Punjabi",
+    "ur": "Urdu",
+    "en": "English"
+  }
+}
+```
+
+### GET `/api/documents/health`
+Check if the server is running.
+
+**Request:**
+```bash
+curl http://localhost:5000/api/documents/health
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "status": "healthy",
+  "timestamp": "2025-03-01T10:30:00Z"
+}
+```
+
+
 ⸻
 
 ### Project Structure
