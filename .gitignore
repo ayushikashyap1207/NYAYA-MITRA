@@ -1,0 +1,7 @@
+node_modules/
+.env
+backend/uploads/
+backend/logs/
+llm-env/
+*.pyc
+__pycache__/
