@@ -48,11 +48,15 @@ English, Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, T
 ### Home Page
 <img width="800" alt="Home Page" src="https://github.com/user-attachments/assets/e91df3ab-1686-48aa-abd7-616d9827b533" />
 
-### output Page
+### output 
 <img width="800" alt="Features Page" src="https://github.com/user-attachments/assets/42c2a969-9bb6-4873-9f32-58affd9eb9b2" />
 
 ### output
 <img width="800" alt="Dashboard" src="https://github.com/user-attachments/assets/70734b5f-f496-445e-a08c-83c360d4b682" />
+
+### output
+<img width="1275" height="677" alt="Screenshot 2026-02-16 at 10 47 11 AM" src="https://github.com/user-attachments/assets/c889dabc-6294-4af2-ba1c-88a5f6d9bc21" />
+
 
 ## ⚙️ Installation
 1. Copy environment files:
