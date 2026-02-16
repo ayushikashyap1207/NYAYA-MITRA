@@ -12,6 +12,8 @@
 NYAYA-MITRA is an AI-powered legal assistance platform designed to help users understand, analyze, and interact with legal information easily. It enables users to extract text from legal documents, summarize complex legal content, translate across languages, and obtain AI-driven insights through a simple web interface.
 
 ⸻
+> **Live Demo:** [Coming Soon — deploying on Vercel]
+
 
 ### Table of Contents
 	•	Overview
@@ -78,29 +80,20 @@ Legal documents are often lengthy, technical, and difficult to understand for no
 
 ⸻
 
-### Tech Stack
+### 🛠️ Tech Stack
 
-# Backend:
-	•	Python
-	•	Flask
+| Layer | Technology |
+|---|---|
+| **Frontend** | React 18, Vite, Tailwind CSS, Lucide Icons |
+| **Backend** | Node.js, Express.js |
+| **OCR** | Tesseract.js (images), pdf-parse (PDFs) |
+| **Analysis** | Rule-based NLP (regex + keyword matching) |
+| **Translation** | LibreTranslate (open-source, free) |
+| **Audio** | Web Speech API (browser built-in) |
+| **Security** | Helmet.js, Express Rate Limiter |
+| **Logging** | Winston |
 
-# Frontend:
-	•	HTML
-	•	CSS
-	•	JavaScript
-
-# AI / NLP:
-	•	OpenAI API or other LLMs (optional)
-
-# OCR:
-	•	Tesseract OCR
-
-# Translation:
-	•	LibreTranslate API
-
-# Database (optional):
-	•	SQLite or MySQL
-
+---
 ⸻
 
 ### System Architecture
